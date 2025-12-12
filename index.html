@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expense Tracker</title>
+<link rel="stylesheet" href="angela.css">
+</head>
+<body>
+<header><h1>EXPENSE TRACKER</h1></header>
+
+<div class="page-box">
+<div class="input-section">
+    <select id="category-input">
+        <option>Food & Beverage</option>
+        <option>Transport</option>
+        <option>Shopping</option>
+        <option>Rent</option>
+    </select>
+
+    <input type="number" id="amount-input" placeholder="Amount">
+    <input type="text" id="expense-name" placeholder="Expense Name">
+
+    <button id="add-btn">Add</button>
+
+    <br><br>
+
+    <select id="filter-category">
+        <option value="All">Filter: All</option>
+        <option>Food & Beverage</option>
+        <option>Transport</option>
+        <option>Shopping</option>
+        <option>Rent</option>
+    </select>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="expenses-table-body"></tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3"><strong>Total:</strong></td>
+            <td id="total-amount">₱0.00</td>
+        </tr>
+    </tfoot>
+</table>
+</div>
+<script src="angela.js"></script>
+</body>
+</html>

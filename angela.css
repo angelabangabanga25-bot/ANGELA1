@@ -1,0 +1,109 @@
+
+header{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(to top, #cfc09f 20%, #ffecb3 40%, #3a2c0f 50%, #ffecb3 60%, #cfc09f 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+    text-shadow: 
+        1px 1px 0 #948459, 
+        2px 2px 0 #948459,
+        3px 3px 0 #948459,
+        4px 4px 0 #7e6f4d, 
+        5px 5px 0 #7e6f4d,
+        6px 6px 4px rgba(0, 0, 0, 0.6); 
+} 
+    
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    background: #ffe6f0;
+    color: #4d004d;
+    background-image: url("image/picture.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+input, select, button {
+    
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 10px solid #ff99cc;
+    background: #fff0f5;
+    color: #4d004d;
+   
+}
+.page-box {
+    border: 10px solid rgb(114, 9, 114);
+    padding: 10px;
+    margin:center;
+    width: 1000px ;
+    height: 500px;
+    position: relative ; 
+    left: 400px;
+   border-radius: 10px;
+   background: white;
+   background-image: url("image/picture2.jpg");
+    background-position: center ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 60%;
+ top: auto;
+  
+}
+
+button {
+    background: #ff99cc;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff66b3;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #f8f3f5;
+    height: 70px;
+
+}
+
+th, td {
+    border: 1px solid #ff99cc;
+    padding: 8px;
+    text-align: center;
+
+}
+
+th {
+    background: #eb3d94;
+    color: #fff;
+}
+
+tfoot td {
+    align-content: center;
+    font-weight: bold;
+    background: #ffb3d9;
+}
+
+.input-section{
+
+    font-size: 2em;
+    box-sizing: 100px;
+    padding: 50px 60px;
+
+
+}
+
